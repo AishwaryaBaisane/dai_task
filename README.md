@@ -2,15 +2,124 @@
 
 A new Flutter project.
 
-## Getting Started
+## What is Asynchronous Programming?
 
-This project is a starting point for a Flutter application.
+Asynchronous programming is a programming paradigm that allows tasks or operations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
 
-A few resources to get you started if this is your first Flutter project:
+## What is Future Class ?
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The Future class represents a future result of an asynchronous computation. This result will eventually appear in the Future after the processing is complete.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## What is Duration class ?
+
+The Duration class represents an interval of time in seconds or nanoseconds and is most suited for handling shorter amounts of time, in cases that require more precision. 
+
+We can determine the difference between two instants as a Duration object using the between() method: Instant start = Instant.
+
+
+## What is Future.delayed() constructor ?
+
+The Future. delayed constructor enables you to create a future that runs its computation after a prespecified duration. 
+
+
+```dart
+import 'dart:io';
+
+void main() 
+{
+  print("hello Flutter");
+  Future.delayed(Duration(seconds: 3),()=>print("hello dart"));
+ 
+
+}
+
+```
+
+
+## What is the Use of the async & await keyword?
+
+### Use of async keyword :
+
+The async keyword is used to mark a function as asynchronous. An asynchronous function can perform tasks that may take some time to complete, such as fetching data from a network or reading from a file.
+
+### Use of await keyword :
+
+The await keyword is used to pause the execution of an asynchronous function until a particular asynchronous operation is completed. It can only be used inside an async function.
+
+```dart
+import 'dart:async';
+void main() async 
+{
+  print("hello Flutter");
+  await Future.delayed(Duration(seconds: 3),()=>print("hello dart"));
+  
+}
+```
+## What is Recursion ? 
+
+Recursion is defined as a process which calls itself directly or indirectly and the corresponding function is called a recursive function.
+
+
+```dart
+import 'dart:async';
+
+void main() 
+{
+  print("hello Flutter");
+  Timer.periodic(Duration(seconds: 1),(Timer) {
+    print("hello dart");
+  });
+
+
+}
+
+```
+
+
+### What is Timer class ?
+
+A countdown timer that can be configured to fire once or repeatedly. The timer counts down from the specified duration to 0.
+
+```dart
+import 'dart:async';
+
+void main() async 
+{
+
+  print("hello Flutter");
+  Timer(Duration(seconds: 2),()=>print("hello php"));
+ 
+  
+}
+```
+
+
+### What is Timer.periodic and use with Example?
+
+```dart
+import 'dart:async';
+
+void main() 
+{
+  print("hello Flutter");
+  Timer.periodic(Duration(seconds: 1),(Timer) {
+    print("hello dart");
+  });
+
+
+}
+
+```
+
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/5a838b9c-7d7e-492e-87bb-38d0193594af"/>
+  <video height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/59f62148-fad4-40b5-a32e-2a39df9ecc1c"/>
+</div>
+
+
+<P>
+  <img src = "https://github.com/AishwaryaBaisane/dai_task/assets/149373597/d6ed99db-eb36-44e4-8040-a19cec2723ee" width = 22% height = 35%>
+
+</P>
+
+
