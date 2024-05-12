@@ -116,10 +116,10 @@ void main()
   <video height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/59f62148-fad4-40b5-a32e-2a39df9ecc1c"/>
 </div>
 
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/d6ed99db-eb36-44e4-8040-a19cec2723ee"/>
+  <video height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/37d6b825-96c3-46eb-bcf6-152b44bb53a7"/>
+</div>
 
-<P>
-  <img src = "https://github.com/AishwaryaBaisane/dai_task/assets/149373597/d6ed99db-eb36-44e4-8040-a19cec2723ee" width = 22% height = 35%>
-
-</P>
 
 
