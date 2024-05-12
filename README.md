@@ -118,8 +118,9 @@ void main()
 </div>
 
 ## 5.4 Analogue Clock App
+
 <div align = "center">
-  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/d6ed99db-eb36-44e4-8040-a19cec2723ee"/>
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d8cf3e9c-7563-4516-9fef-c838407c2a85"/>
   <video height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/37d6b825-96c3-46eb-bcf6-152b44bb53a7"/>
 </div>
 
