@@ -25,13 +25,14 @@ class _ClockState extends State<Clock> {
         height: double.infinity,
         width: 500,
         decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('assets/img/moon.jpg'), fit: BoxFit.fill)),
+          image: DecorationImage(
+              image: AssetImage('assets/img/moon.jpg'), fit: BoxFit.fill),
+        ),
         child: Center(
           child: Stack(
             children: [
               Padding(
-                padding: const EdgeInsets.only(right: 0,bottom: 400),
+                padding: const EdgeInsets.only(right: 0, bottom: 400),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -49,11 +50,12 @@ class _ClockState extends State<Clock> {
                           Center(
                             child: Text(
                               ' ${(dateTime.hour > 9 && dateTime.hour < 24) ? (dateTime.hour % 12) : '0${(dateTime.hour)}'} : ${(dateTime.minute > 9) ? (dateTime.minute) : '0${(dateTime.minute)}'} : ${(dateTime.second > 9) ? (dateTime.second) : '0${(dateTime.second)}'}',
-                              style: TextStyle(color: Colors.white, fontSize: 40),
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 40),
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(top: 10,left: 5),
+                            padding: const EdgeInsets.only(top: 10, left: 5),
                             child: Text(
                               (dateTime.hour > 12) ? 'PM' : 'AM',
                               style: const TextStyle(

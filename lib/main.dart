@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'Screen/home/Timer_App/AnalogApp.dart';
+import 'Screen/home/Timer_App/Degital_Clock.dart';
+import 'Screen/home/Timer_App/StrapWatch.dart';
+import 'Screen/home/clock1.dart';
 import 'Screen/home/clock2.dart';
 
 void main()
@@ -14,11 +17,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        // home: Scaffold(
-        //
-        // ),
         routes: {
-         '/' :(context) => Clock(),
+         '/Digital' :(context) => DigitalApp(),
+         '/' :(context) => AnalogApp(),
+         '/analog' :(context) => StrapWatch(),
+         '/digital' :(context) => ClockApp(),
+         '/Analog' :(context) => Clock(),
     },
     );
   }
