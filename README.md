@@ -128,9 +128,9 @@ void main()
 ## Timer App :
 
 <div align = "center">
-  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b6e4e580-ec86-4d4a-800f-25f561018925"/>
-  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/538d7322-8cf9-413f-baef-c97d6540fc80"/>
-  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b698e036-06c5-4f48-ae64-e3125f8bdea6"/>
+  <img align = "left" height="500" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b6e4e580-ec86-4d4a-800f-25f561018925"/>
+  <img align = "left" height="500" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/538d7322-8cf9-413f-baef-c97d6540fc80"/>
+  <img align = "left" height="500" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b698e036-06c5-4f48-ae64-e3125f8bdea6"/>
    <video height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/925ffb83-3aaa-4c73-8b20-f92d3743ac87"/>
 
 </div>
