@@ -115,13 +115,24 @@ void main()
 <div align = "center">
   <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/5a838b9c-7d7e-492e-87bb-38d0193594af"/>
   <video height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/59f62148-fad4-40b5-a32e-2a39df9ecc1c"/>
-</div>
+</div>![analog](https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d4713930-f3f8-41c3-a4d4-f7d49892fb72)
+
 
 ## 5.4 Analogue Clock App
 
 <div align = "center">
   <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d8cf3e9c-7563-4516-9fef-c838407c2a85"/>
   <video height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/37d6b825-96c3-46eb-bcf6-152b44bb53a7"/>
+</div>
+
+## Timer App :
+
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b6e4e580-ec86-4d4a-800f-25f561018925"/>
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/538d7322-8cf9-413f-baef-c97d6540fc80"/>
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/b698e036-06c5-4f48-ae64-e3125f8bdea6"/>
+   <video height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/925ffb83-3aaa-4c73-8b20-f92d3743ac87"/>
+
 </div>
 
 
