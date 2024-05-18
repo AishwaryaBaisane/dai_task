@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Screen/home/Buttons.dart';
 import 'Screen/home/Timer_App/AnalogApp.dart';
 import 'Screen/home/Timer_App/Degital_Clock.dart';
 import 'Screen/home/Timer_App/StrapWatch.dart';
@@ -18,9 +19,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
         routes: {
+         '/' :(context) => ButtonApp(),
          '/Digital' :(context) => DigitalApp(),
-         '/' :(context) => AnalogApp(),
-         '/analog' :(context) => StrapWatch(),
+         '/analog' :(context) => AnalogApp(),
+         '/strap' :(context) => StrapWatch(),
          '/digital' :(context) => ClockApp(),
          '/Analog' :(context) => Clock(),
     },

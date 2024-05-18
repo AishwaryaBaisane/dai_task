@@ -104,7 +104,7 @@ class _AnalogAppState extends State<AnalogApp> {
                   width: 10,
                   color: Colors.green,
                   thickness: 6,
-                  indent: 290,
+                  indent: 295,
                   endIndent: 367,
                 ),
               ),
