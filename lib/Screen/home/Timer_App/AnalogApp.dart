@@ -59,19 +59,20 @@ class _AnalogAppState extends State<AnalogApp> {
             ...List.generate(
               60,
               (index) => Transform.rotate(
-                angle: ((index+1) * 6 * pi)/180,
-                child: ((index+1)%5==0)?VerticalDivider(
-                  color: Colors.white,
-                  thickness: 3,
-                  endIndent: 500,
-                  indent: 224,
-                ):VerticalDivider(
-                  color: Colors.blue,
-                  thickness: 3,
-                  endIndent: 510,
-                  indent: 230,
-                )
-              ),
+                  angle: ((index + 1) * 6 * pi) / 180,
+                  child: ((index + 1) % 5 == 0)
+                      ? VerticalDivider(
+                          color: Colors.white,
+                          thickness: 3,
+                          endIndent: 500,
+                          indent: 224,
+                        )
+                      : VerticalDivider(
+                          color: Colors.blue,
+                          thickness: 3,
+                          endIndent: 510,
+                          indent: 230,
+                        )),
             ),
             Center(
               child: Transform.rotate(

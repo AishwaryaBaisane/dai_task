@@ -35,7 +35,7 @@ class _ButtonAppState extends State<ButtonApp> {
               Container(
                 // margin: EdgeInsets.all(10),
                 padding: EdgeInsets.all(10),
-                height: 220,
+                height: 265,
                 width: 380,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
@@ -142,7 +142,36 @@ class _ButtonAppState extends State<ButtonApp> {
                             style: OutlinedButton.styleFrom(
                                 backgroundColor: Color(0xffe4dfe5)),
                             onPressed: () {},
-                            child: Text('Outlined'))
+                            child: Text('Outlined')),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              'Text',
+                              style: TextStyle(fontSize: 20),
+                            )),
+                        SizedBox(width: 20,),
+                        TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              '+ Icon',
+                              style: TextStyle(fontSize: 20),
+                            )),
+                        SizedBox(width: 20,),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            'Text',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Color(0xffe4dfe5),
+                            ),
+                          ),
+                        ),
                       ],
                     )
                   ],
@@ -201,7 +230,7 @@ class _ButtonAppState extends State<ButtonApp> {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Text(
                 'Segmented buttons',
@@ -211,10 +240,10 @@ class _ButtonAppState extends State<ButtonApp> {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Container(
-                height: 130,
+                height: 100,
                 width: 380,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
