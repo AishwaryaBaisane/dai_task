@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+## 5.1 Flutter Buttons.
+<div align = "center">
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d0620986-7f0f-491f-9e79-f40f0ed060e2"/>
+</div>!
+
 ## What is Asynchronous Programming?
 
 Asynchronous programming is a programming paradigm that allows tasks or operations to run independently and concurrently, without waiting for each other to complete before moving on to the next task.
@@ -115,7 +120,7 @@ void main()
 <div align = "center">
   <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/5a838b9c-7d7e-492e-87bb-38d0193594af"/>
   <video height="550" src="https://github.com/AishwaryaBaisane/dai_task/assets/149373597/59f62148-fad4-40b5-a32e-2a39df9ecc1c"/>
-</div>![analog](https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d4713930-f3f8-41c3-a4d4-f7d49892fb72)
+</div>!
 
 
 ## 5.4 Analogue Clock App
