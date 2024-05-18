@@ -4,10 +4,8 @@ A new Flutter project.
 
 ## 5.1 Flutter Buttons.
 <div align = "center">
-  <img height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/d0620986-7f0f-491f-9e79-f40f0ed060e2"/>
+  <img height="550" src="https://github.com/AishwaryaBaisane/daily_clock_task/assets/149373597/879c1a62-5214-48ec-afd7-387ef9a4a6ef"/>
 </div>
-
-
 
 ## What is Asynchronous Programming?
 
